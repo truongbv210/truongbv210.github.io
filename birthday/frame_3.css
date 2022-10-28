@@ -1,0 +1,32 @@
+.left_libs {
+    display: none;
+    left: 0%;
+    bottom: 0%;
+    max-width: 30%;
+    max-height: 30%;    
+    border-radius: 10px;
+    position: absolute;    
+    border: 1px solid pink;
+}
+
+.mid_libs {
+    display: none;
+    left: 35%;
+    bottom: 0%;
+    max-width: 30%;
+    max-height: 30%;    
+    border-radius: 10px;
+    position: absolute;    
+    border: 1px solid pink;
+}
+
+.right_libs {
+    display: none;
+    right: 0%;
+    bottom: 0%;
+    max-width: 30%;
+    max-height: 30%;    
+    border-radius: 10px;
+    position: absolute;    
+    border: 1px solid pink;
+}

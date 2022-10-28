@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Birthday</title>
+  <meta charset="UTF-8">
+  <!--This is important line for fit phone device (maximum-scale=1.0, user-scalable=0)-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+<div id="login">
+  <div class="navbar">
+    <a href="../home">Home</a>
+  </div>
+
+  <input id="login_text" type="text">
+  <button onclick="hidenFunction()" class="btn_login"> Yên </button>
+</div>
+
+<div id="main" style="display: none;">
+  <div class="backtohome">
+    <a href="../home">HOME</a>
+  </div>  
+
+  <div class="btn_right">
+    <button id="come_in">Come In</button>
+    <button id="turn_on">Turn On Lights</button>
+    <button id="play">Play Music</button>
+    <button id="bannar_coming">Let's Decorate</button>
+    <button id="balloons_flying">Fly Balloons</button>
+    <button id="cake_fadein">Delicious Cake</button>
+    <button id="light_candle">Light Candle</button>
+    <button id="wish_message">Happy Birthday</button>
+    <button id="story">A mesage for you</button>
+    <button id="video">Watch Movie</button>
+  </div>
+
+  <div id="window_canvas" class="frame_1">
+    <canvas id="c"></canvas>
+    <link rel="stylesheet" href="frame_1.css">
+    <script type="text/javascript" src="frame_1.js"></script>
+  </div>
+
+  <!-- <div class="header">
+    <h1>My Website</h1>
+    <p>A website created by me.</p>
+  </div> -->
+
+  <div class="room" id="room_frame2" style="display: none;">    
+
+    <link rel="stylesheet" href="frame_2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="frame_2.js"></script>
+    
+  	<audio class="song" controls loop hidden>
+      <source src="tools/hbd.mp3"></source>
+    </audio>
+
+    <div class="balloons text-center" id="b1">
+      <h2 style="color:#F2B300;">H</h2>
+    </div>
+    <div class="balloons text-center" id="b2">
+      <h2 style="color:#0719D4;">à</h2>
+    </div>
+    <div class="balloons text-center" id="b3">
+      <h2 style="color:#D14D39;">P</h2>
+    </div>
+    <div class="balloons text-center" id="b4">
+      <h2 style="color:#8FAD00;">h</h2>
+    </div>
+    <div class="balloons text-center" id="b5">
+      <h2 style="color:#8377E4;">ư</h2>
+    </div>
+    <div class="balloons text-center" id="b6">
+      <h2 style="color:#99C96A;">ợ</h2>
+    </div>
+    <div class="balloons text-center" id="b7">
+      <h2 style="color:#20CFB4;">n</h2>
+    </div>
+    <div class="balloons text-center" id="b8">
+      <h2 style="color:#e76dbf;">g</h2>  
+    </div>
+
+    <img src="tools/Balloon-Border.png" width="100%" class="balloon-border">
+
+
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-md-2 col-xs-2 bulb-holder">
+          <div class="bulb" id="bulb_yellow"></div>
+        </div>
+        <div class="col-md-2 col-xs-2 bulb-holder">
+          <div class="bulb" id="bulb_red"></div>
+        </div>
+        <div class="col-md-2 col-xs-2 bulb-holder">
+          <div class="bulb" id="bulb_blue"></div>
+        </div>
+        <div class="col-md-2 col-xs-2 bulb-holder">
+          <div class="bulb" id="bulb_green"></div>
+        </div>
+        <div class="col-md-2 col-xs-2 bulb-holder">
+          <div class="bulb" id="bulb_pink"></div>
+        </div>
+        <div class="col-md-2 col-xs-2 bulb-holder">
+          <div class="bulb" id="bulb_orange"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img src="tools/banner.png" class="bannar">
+        </div>
+      </div>
+
+      <div class="row cake-cover">
+        <div class="col-md-12 texr-center">
+          <div class="cake">
+            <div class="velas">
+              <div class="fuego"></div>
+              <div class="fuego"></div>
+              <div class="fuego"></div>
+              <div class="fuego"></div>
+              <div class="fuego"></div>
+            </div>
+            <div class="cobertura"></div>
+            <div class="bizcocho"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="row"> -->
+        <!-- <div class="love_gif"> -->
+          <!-- <img class="love_gif" src="tools/love_210px.gif" style="width:100%"> -->
+        <!-- </div> -->
+
+      <!-- </div> -->
+
+      <div class="libs">
+
+        <link rel="stylesheet" href="frame_3.css">
+        <script type="text/javascript" src="frame_3.js"></script>
+
+        <img class="left_libs" src="tools/love_210px.gif">
+        <img class="left_libs" src="tools/iloveyou_144px.gif">
+
+        <img class="mid_libs" src="libs/lib_1.dll">
+        <img class="mid_libs" src="libs/lib_2.dll">
+        <img class="mid_libs" src="libs/lib_3.dll">
+        <img class="mid_libs" src="libs/lib_4.dll">
+        <img class="mid_libs" src="libs/lib_4.dll">
+        <img class="mid_libs" src="libs/lib_5.dll">
+        <img class="mid_libs" src="libs/lib_6.dll">
+        <img class="mid_libs" src="libs/lib_7.dll">
+        <img class="mid_libs" src="libs/lib_8.dll">
+        <img class="mid_libs" src="libs/lib_9.dll">
+        <img class="mid_libs" src="libs/lib_10.dll">
+        <img class="mid_libs" src="libs/lib_11.dll">
+        <img class="mid_libs" src="libs/lib_12.dll">
+        <img class="mid_libs" src="libs/lib_13.dll">
+        <img class="mid_libs" src="libs/lib_14.dll">
+
+
+        <img class="right_libs" src="libs/lib_14.dll">
+        <img class="right_libs" src="libs/lib_13.dll">
+        <img class="right_libs" src="libs/lib_12.dll">
+        <img class="right_libs" src="libs/lib_11.dll">
+        <img class="right_libs" src="libs/lib_10.dll">
+        <img class="right_libs" src="libs/lib_9.dll">
+        <img class="right_libs" src="libs/lib_8.dll">
+        <img class="right_libs" src="libs/lib_7.dll">
+        <img class="right_libs" src="libs/lib_6.dll">
+        <img class="right_libs" src="libs/lib_5.dll">
+        <img class="right_libs" src="libs/lib_4.dll">
+        <img class="right_libs" src="libs/lib_3.dll">
+        <img class="right_libs" src="libs/lib_2.dll">
+        <img class="right_libs" src="libs/lib_1.dll">
+
+      </div>
+
+      <div class="row message">
+        <div class="col-md-12">
+          <p>Hôm nay là ...</p>
+          <p>ngày thật sự đặc biệt trong tim anh</p>
+          <p>29 - 10</p>
+          <p>đúng rồi ...</p>
+          <p>Chúc mừng sinh nhật em yêu</p>
+          <p>Chúc em cụa anh luôn tươi vui mỗi ngày nì</p>
+          <p>Cảm ơn em đã đến bên anh, cho anh biết được tình yêu của em ..</p>
+          <p>thật đẹp biết bao</p>
+          <p>Anh chỉ mong mỗi ngày em đều cảm thấy được hạnh phúc, bình yên bên anh</p>
+          <p>Anh không biết mình có thể làm được những gì lớn lao</p>
+          <p>.. nhưng anh sẽ cố gắng từng ngày, từng chút từng chút ..</p>
+          <p>để em có thể thấy được anh </p>
+          <p>.. yêu em rất nhiều</p>
+          <p>Anh sẽ luôn ở bên cạnh em, đồng hành cùng em</p>
+          <p>.. chia sẻ và cùng em tiến về phía trước</p>
+          <p>Chúng mình cùng nhau cố gắng nhé</p>
+          <p>Anh chỉ muốn nói thêm nữa là</p>
+          <p>Anh Yêu Emmm, I Love Youuu</p>
+          <p>Sớm về chung một nhà nhaaa, tình yêu của anhhh</p>
+          <p>Và chúng ta cùng nhìn lại những tấm ảnh đáng yêu ...</p>
+          <p>của chúng ta trong suốt thời gian qua nhé</p>
+          <p>I Love Youuu</p>
+        </div>
+      </div>
+
+      <!-- <div class="libs_v"> -->
+        <video width="100%" controls id="vshow" style="display: none;">
+          <source src="libs/vshow.dll" type="video/mp4">
+        </video>
+      <!-- </div> -->
+      
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

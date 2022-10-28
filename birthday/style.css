@@ -1,0 +1,104 @@
+body {
+  background-color:white;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #38444d; */
+  background-color: #f7b1cc;
+}
+
+.navbar a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+/* Input text         */
+input[type=text] {
+  width: 35%;
+  padding: 5px 5px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  text-align: center;
+  border-radius: 50px;
+}
+
+input[type=text]:focus {
+  background-color: pink;
+  touch-action: manipulation;
+  font-size: 16px;
+}
+
+.btn_login {
+  padding: 5px 5px;
+  margin: 4px 0;
+  border: 1px solid #555;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.btn_login:hover{
+  background-color: pink;
+}
+
+.backtohome {
+  /* background-color: #f1f1f1; */
+  /* color: black; */
+  /* color: white; */
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 10px;
+  margin: 0px 5px;
+}
+
+.backtohome a{
+  text-decoration: none;
+  color: pink;
+  font-family: 'Signika', sans-serif;
+}
+
+
+.btn_right {
+	float: right;
+} 
+
+.btn_right button{
+  border-color: pink;
+  text-transform: uppercase;
+  font-family: 'Signika', sans-serif;
+  color: pink;
+  background-color: white;
+  float: right;
+  border: 1;
+  border-radius: 10px;
+  margin: 2px 2px;
+  font-size: 14px;
+  height: 25px;
+}
+
+.btn_right button:hover{
+  border-color: #fff;
+	color: white;
+	background-color: pink;
+}
+
+@font-face {
+  font-family: 'GG_Robert_Leuschke';
+  font-style: Asia;
+  font-weight: 400;
+  src:url('tools/IslandMoments-Regular.ttf');
+}
