@@ -231,7 +231,7 @@ $('document').ready(function(){
 		
 		msgLoop(0);
 
-		$(this).fadeOut('slow').delay(20000).promise().done(function(){
+		$(this).fadeOut('slow').delay(40000).promise().done(function(){
 			$('#video').fadeIn('slow');
 		});
 		
